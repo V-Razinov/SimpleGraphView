@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GraphView">
+        <attr name="netColor" format="color" />
+        <attr name="netSize" format="dimension" />
+
+        <attr name="axisColor" format="color" />
+        <attr name="axisYPointerDrawable" format="reference" />
+
+        <attr name="pointerColor" format="color" />
+        <attr name="pointerSize" format="dimension" />
+        <attr name="pointerLineWidth" format="dimension" />
+        <attr name="pointersLineColor" format="color" />
+        <attr name="pointerLineShadowColor" format="color" />
+
+        <attr name="toolTipBackgroundColor" format="color" />
+        <attr name="toolTipShadowColor" format="color" />
+
+        <attr name="toolTipTextSize" format="dimension" />
+        <attr name="toolTipTextColor" format="color" />
+        <attr name="tooltipFontFamily" format="string" />
+        <attr name="toolTipTextPadding" format="dimension" />
+    </declare-styleable>
+
+    <style name="GraphView">
+        <item name="netColor">@android:color/darker_gray</item>
+        <item name="netSize">0.5dp</item>
+
+        <item name="axisColor">#5B5B5B</item>
+        <item name="axisYPointerDrawable">@drawable/axis_y_pointer</item>
+
+        <item name="pointerSize">6dp</item>
+        <item name="pointerLineWidth">3dp</item>
+        <item name="pointerColor">#E41D94</item>
+        <item name="pointersLineColor">#E41D94</item>
+        <item name="pointerLineShadowColor">@android:color/darker_gray</item>
+
+        <item name="toolTipShadowColor">@android:color/darker_gray</item>
+        <item name="toolTipBackgroundColor">#E41D94</item>
+
+        <item name="toolTipTextSize">12sp</item>
+        <item name="toolTipTextColor">@color/white</item>
+        <item name="tooltipFontFamily">sans-serif</item>
+        <item name="toolTipTextPadding">8dp</item>
+    </style>
+</resources>
